@@ -8,12 +8,16 @@
         $(this).removeClass('error_class');
     });
 
+    $('#subject').focus(function () {
+        $(this).removeClass('error_class');
+    });
+
     $('#message').focus(function () {
         $(this).removeClass('error_class');
     });
 
     $('.contact_form').submit(function () {
-
+        //TODO hasError is really bad, let's throw an exception instead
         hasError = false;
 
         if ($('#name').val() == '') {
@@ -38,6 +42,11 @@
             hasError = true;
         }
 
+        if ($('#subject').val() == '') {
+            $('#subject').addClass('error_class');
+            hasError = true;
+        }
+
         if ($('#message').val() == '') {
             $('#message').addClass('error_class');
             hasError = true;
@@ -48,6 +57,7 @@
             $('.error_box').show();
         }
         else {
+            $('.error_box').hide();
             $.ajax({
                 type: 'POST',
                 url: 'contact.php',
@@ -61,8 +71,8 @@
                     else {
                         $('#name').val('');
                         $('#email').val('');
+                        $('#subject').val('');
                         $('#message').val('');
-                        $('#website').val('');
                         $('.error_box').hide();
                         $('.success_box').show();
                     }
