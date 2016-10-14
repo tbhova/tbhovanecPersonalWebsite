@@ -1,7 +1,7 @@
 <?php
 	
-	$your_email = 'name@domain.com'; // Your email address
-	//$subject = 'Email from your contact form'; // Email subject
+	$your_email = 'tbhovanec@gmail.com'; // Your email address
+	//$subject = 'Email from your website contact form'; // Email subject
 	
 	$name = isset($_POST['name']) && $_POST['name'] ? $_POST['name'] : ''; // Visitor Name 
 	$email = isset($_POST['email']) && $_POST['email'] ? $_POST['email'] : ''; // Visitor Email
