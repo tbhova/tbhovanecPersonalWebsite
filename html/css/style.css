@@ -329,16 +329,15 @@ p + hr {
 	margin:0 auto;
 }
 .header_bg {
-	min-height:190px;
-	background:#403830 url(../images/header-bg.jpg) repeat-x;
+	min-height:50px;
+	background:#403830 url(../images/header-bg.png) repeat-x;
 }
 .header_bg.grey {
-	background:#f2f2f2 url("../images/header_delimiter.png") repeat-x bottom;
+//	background:#f2f2f2 url("../images/header_delimiter.png") repeat-x bottom;
 }
 .header_bg .logo {
 	float:left;
 	margin-bottom:10px;
-	margin-top: 100px;
 }
 
 .title {
@@ -347,7 +346,7 @@ p + hr {
 
 /* ================= Header Menu ================= */
 .main-menu {
-	margin:113px 0 0 0;
+	margin:13px 0 0 0;
 	float:right;
 }
 .main-menu ul {
