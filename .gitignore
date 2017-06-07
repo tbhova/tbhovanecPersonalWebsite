@@ -47,4 +47,6 @@ Temporary Items
 .apdisk
 
 # Jetbrains
-.idea
+
+
+\.idea/
