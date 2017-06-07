@@ -53,6 +53,15 @@ This is no trivial machine or task. There are 15 devices communicating over Ethe
 
 ### HMI Serial Barcode Scanner Configuration Tool
 
+Following delivery of the automated circuit breaker, I was very familiar with the base HMI application; so I was assigned a project to add a feature to it.
+
+One of the tasks that needs done during testing and verification is configuration. This includes configuring some 40 different barcode scanner parameters to optimal values which are not known in advance. These values used to be hardcoded and would required a recompilation and reboot (long process with Windows CE). This process can easily become very time consuming on a machine with a new scanner placement or new barcode type.
+ 
+Features of my addition:
+* New barcode configuration screen for multiple scanners and types
+* XML based configuration file to store scanner(s) settings
+* Saves up to an hour of developer time during machine configuration
+
 ## Technologies
 
 **Languages Used:**
@@ -63,6 +72,7 @@ This is no trivial machine or task. There are 15 devices communicating over Ethe
 * Batch Script
 
 **Technologies Used:**
+* Windows CE
 * Visual Studio
 * RS 232 Serial Interface
 * 2D & 1D Barcode Scanners
