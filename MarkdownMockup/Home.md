@@ -7,6 +7,10 @@
 
 Summary
 
+## Resume
+
+[Click here](Tyler_Hovanec_resume.pdf)
+
 ## Contact
 
 ### Email

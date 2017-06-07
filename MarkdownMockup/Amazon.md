@@ -13,7 +13,6 @@
 **Title:** Software Development Engineer Intern  
 **Project:** Catalog Item Classification Debug Tool  
 
-
 ## Project
 
 ### Project Description
@@ -33,6 +32,7 @@ Initially I was given the open ended requirements to create a debug tool that ex
 * Java
 * JUnit
 * JavaScript
+* Jasmine + Karma (JavaScript Unit Tests)
 * AngularJS
 * D3 (JavaScript Data Visualization)
 * HTML 5
